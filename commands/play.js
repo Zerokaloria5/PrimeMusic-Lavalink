@@ -115,7 +115,7 @@ async function play(client, interaction) {
     } catch (error) {
         console.error('Error processing play command:', error);
         const errorEmbed = new EmbedBuilder()
-            .setColor('#ff0000')
+            .setColor('#000000')
             .setTitle('Error')
             .setDescription('An error occurred while processing your request.');
 
