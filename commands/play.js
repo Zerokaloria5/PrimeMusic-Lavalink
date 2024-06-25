@@ -82,29 +82,29 @@ async function play(client, interaction) {
 
         const embeds = [
             new EmbedBuilder()
-                .setColor('#4d9fd6')
+                .setColor('#000000')
                 .setAuthor({
                     name: 'Request Update!',
-                    iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236794583732457473/7828-verify-ak.gif',
-                    url: 'https://discord.gg/xQF9f9yUEM'
+                    iconURL: 'https://cdn.discordapp.com/attachments/1048361437464121474/1255307766847766609/CuauFBt.png?ex=667ca7f6&is=667b5676&hm=273bc108ac9c81ad02fb9cffcb67b438990fd08b30a0359f777e69fbc98269eb&',
+                    url: 'https://discord.gg/s2bvv7tMaz'
                 })
                 .setDescription('➡️ **Your request has been successfully processed.**\n➡️** Please use the buttons to control the queue**'),
 
             new EmbedBuilder()
-                .setColor('#ffea00')
+                .setColor('#000000')
                 .setAuthor({
                     name: 'Request Update!',
-                    iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236802032938127470/4104-verify-yellow.gif',
-                    url: 'https://discord.gg/xQF9f9yUEM'
+                    iconURL: 'https://cdn.discordapp.com/attachments/1048361437464121474/1255307766847766609/CuauFBt.png?ex=667ca7f6&is=667b5676&hm=273bc108ac9c81ad02fb9cffcb67b438990fd08b30a0359f777e69fbc98269eb&',
+                    url: 'https://discord.gg/s2bvv7tMaz'
                 })
                 .setDescription('➡️ **Your request has been successfully processed.**\n➡️** Please use the buttons to control the queue**'),
 
             new EmbedBuilder()
-                .setColor('#FF0000')
+                .setColor('#000000')
                 .setAuthor({
                     name: 'Request Update!',
-                    iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236802049190920202/4104-verify-red.gif',
-                    url: 'https://discord.gg/xQF9f9yUEM'
+                    iconURL: 'https://cdn.discordapp.com/attachments/1048361437464121474/1255307766847766609/CuauFBt.png?ex=667ca7f6&is=667b5676&hm=273bc108ac9c81ad02fb9cffcb67b438990fd08b30a0359f777e69fbc98269eb&',
+                    url: 'https://discord.gg/s2bvv7tMaz'
                 })
                 .setDescription('➡️ **Your request has been successfully processed.**\n➡️** Please use the buttons to control the queue**')
         ];
