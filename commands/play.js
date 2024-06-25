@@ -70,7 +70,7 @@ async function play(client, interaction) {
             if (!player.playing && !player.paused) player.play();
         } else {
             const errorEmbed = new EmbedBuilder()
-                .setColor('#ff0000')
+                .setColor('#000000')
                 .setTitle('Error')
                 .setDescription('There are no results found.');
 
