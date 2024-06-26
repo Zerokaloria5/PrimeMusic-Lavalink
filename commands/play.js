@@ -30,7 +30,7 @@ async function play(client, interaction) {
             guildId: interaction.guildId,
             voiceChannel: interaction.member.voice.channelId,
             textChannel: interaction.channelId,
-            deaf: true
+            deaf: false
         });
 
         await interaction.deferReply();
